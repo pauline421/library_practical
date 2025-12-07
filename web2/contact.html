@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | The Beginner Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">The Beginner Library</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="account.html">Account</a>
+            <a href="services.html">Services</a>
+            <a href="events.html">Events</a>
+            <a href="faq.html">FAQ</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Get in Touch</h1>
+        <p>We're here to help! Fill out the form below or find our location details.</p>
+
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="general">General Inquiry</option>
+                    <option value="membership">Membership Question</option>
+                    <option value="suggestion">Book Suggestion</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="button">Send Message</button>
+        </form>
+
+        <section class="location-info">
+            <h2>Visit Us</h2>
+            <p>123 Knowledge Lane, Booktown, USA 10101</p>
+            <p>Phone: (555) 123-4567</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 The Beginner Library | Designed for Learning HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
