@@ -17,7 +17,7 @@ main {
 }
 
 h1, h2 {
-    color: #007bff; /* Primary Blue for headings */
+    color: #97999c; /* Primary Blue for headings */
     border-bottom: 2px solid #e0e0e0;
     padding-bottom: 10px;
     margin-top: 0;
@@ -30,7 +30,7 @@ p {
 
 /* --- 2. Header and Navigation Styling --- */
 header {
-    background-color: #007bff; /* Primary Blue header */
+    background-color: #3d3e3f; /* Primary Blue header */
     color: white;
     padding: 15px 20px;
     display: flex;
@@ -136,15 +136,15 @@ nav a.active {
 .contact-form input[type="email"],
 .contact-form select,
 .contact-form textarea {
-    width: calc(100% - 20px); /* 100% width minus padding */
+    width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box;
 }
 
 .contact-form textarea {
-    resize: vertical; /* Allow resizing only vertically */
+    resize: vertical;
 }
 
 /* --- 6. Footer Styling --- */
